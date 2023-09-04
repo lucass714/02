@@ -14,88 +14,131 @@
     }
 
     body {
-      background-color: rgb(88, 172, 221);
+      background-color: rgb(52, 142, 194);
     }
   </style>
 </head>
 
-  <h1>TRABAJO PRACTICO 02</h1>
-  <h2> <sub>4.1</sub></h2>
+<h1>TRABAJO PRACTICO 02</h1>
+<h2> <sub>4.1</sub></h2>
 
-  <h3>1.1- ¿Qué significa CSS?</h3>
-  <p>css son hojas de estilo en cascada del ingles Cascading Stylesheets </p>
-  <h3>1.2- ¿Para qué sirve el CSS? ¿Qué programa se utiliza para interpretar el CSS? (es para 🧠) Guía de conceptos</h3>
-  <p>CSS es un lenguaje informático que especifica cómo se presentan los documentos a los usuarios: cómo se diseñan,
-    compaginan, etc.. CSS se puede usar, por ejemplo, para cambiar la fuente, el color
-    el tamaño y el espaciado del contenido, para formar multiples columnas, añadir animaciones y otros elementos
-    decorativos, los programas que se usan para presentarlo, son los navegadores, <u> google, firefox, edge.</u> </p>
-  <h3>1.3- ¿A qué se llama regla de CSS? </h3>
-  <p>regla css se le llama a que cada <strong> usuario va a elegir sus propias reglas</strong>, que especifican los
-    grupos de estilos que van a aplicarse a elementos particulares o grupos de elementos de la página we</p>
-  <h3>1.4- ¿Cuál es la anatomía de la regla de CSS? Agregar imagen explicativa y utilizando una lista descriptiva
-    explicar sus elementos.</h3>
-  <p>h1 {
-    color: red;
-    font-size: 5em;
-    }
-  </p>
-  <dl>
-    <dt><strong>selector (p)</strong></dt>
-    <dl>selecciona los elementos a los que les vamos a dar estilo</dl>
-    <dt><strong>propiedad(color)</strong></dt>
-    <dl>da el color a las letras de los parrafos, nosotros elegimos el color</dl>
-    <dt><strong>valor de propiedad</strong></dt>
-    <dl>las propiedades deben tener un valor. Cada propiedad tiene valores definidos. Cada valor se ubicará a la
-      derecha.</dl>
-    <dt><strong>declaracion</strong></dt>
-    <dl>aplica a las propiedades lo que le queres dar al elemento, puede haber mas de 1 regla</dl>
-  </dl>
+<h3>1.1- ¿Qué significa CSS?</h3>
+<p>css son hojas de estilo en cascada del ingles Cascading Stylesheets </p>
+<h3>1.2- ¿Para qué sirve el CSS? ¿Qué programa se utiliza para interpretar el CSS? (es para 🧠) Guía de conceptos</h3>
+<p>CSS es un lenguaje informático que especifica cómo se presentan los documentos a los usuarios: cómo se diseñan,
+  compaginan, etc.. CSS se puede usar, por ejemplo, para cambiar la fuente, el color
+  el tamaño y el espaciado del contenido, para formar multiples columnas, añadir animaciones y otros elementos
+  decorativos, los programas que se usan para presentarlo, son los navegadores, <u> google, firefox, edge.</u> </p>
+<h3>1.3- ¿A qué se llama regla de CSS? </h3>
+<p>regla css se le llama a que cada <strong> usuario va a elegir sus propias reglas</strong>, que especifican los
+  grupos de estilos que van a aplicarse a elementos particulares o grupos de elementos de la página we</p>
+<h3>1.4- ¿Cuál es la anatomía de la regla de CSS? Agregar imagen explicativa y utilizando una lista descriptiva
+  explicar sus elementos.</h3>
+<p>h1 {
+  color: red;
+  font-size: 5em;
+  }
+</p>
+<dl>
+  <dt><strong>selector (p)</strong></dt>
+  <dl>selecciona los elementos a los que les vamos a dar estilo</dl>
+  <dt><strong>propiedad(color)</strong></dt>
+  <dl>da el color a las letras de los parrafos, nosotros elegimos el color</dl>
+  <dt><strong>valor de propiedad</strong></dt>
+  <dl>las propiedades deben tener un valor. Cada propiedad tiene valores definidos. Cada valor se ubicará a la
+    derecha.</dl>
+  <dt><strong>declaracion</strong></dt>
+  <dl>aplica a las propiedades lo que le queres dar al elemento, puede haber mas de 1 regla</dl>
+</dl>
 
-  <h3>1.5- ¿Qué es un selector en CSS?</h3>
-  <p>seleciciona los elementos a los cuales les vamos a dar colores y estilo</p>
-  <h3>.6- Identificar y definir los selectores: de ID, de clases, universal, de etiquetas, descendente.</h3>
-  <p> <strong>ID</strong> este elemento lo usamos para darle color a un solo elemento en el html, por ejemplo a un
-    titulo
-  <h1 id="titulo">Título Principal </h1>
-  </p>
-  <p><strong>de clase </strong>En un documento HTML, los selectores de clase buscan un elemento basado en el contenido
-    de su atributo class</p>
-  <p><strong>universal</strong> este selector coincide con los elementos de cualquier tipo. </p>
-  <p><strong>de etiquetas</strong> este sirve para darle los atributos del css a un elemento.</p>
-  <p><strong>descendente </strong>con este seleccionamos un elemento que esta adentro de otro, estos siempre son 2 o
-    mas, el ultimo seleccionado, se le aplicaran los elementos css</p>
-  <h3> 1.7- Explicar brevemente utilizando una lista ordenada: ¿cómo funciona el CSS? </h3>
-  <p>el <strong>CSS</strong>, combina el estilo que el usuario le dió al documento, lo procesa en una serie de etapas.
-  </p>
-  <ol>
-    <li>el navegador carga el html</li>
-    <li>convierte el html en un dom</li>
-    <li>el navegador busca lkos recursos vinculados al documento hmtl, imagenes y videos incrustados</li>
-    <li>El navegador analiza el CSS y ordena en diferentes «cubos» las diferentes reglas según el tipo de selector.</li>
-    <li>el arbol de renderizacion presenta las estructura en la que los nodos deben presentarse</li>
-    <li>se muestra el aspecto visual en la pantallla.</li>
-  </ol>
+<h3>1.5- ¿Qué es un selector en CSS?</h3>
+<p>seleciciona los elementos a los cuales les vamos a dar colores y estilo</p>
+<h3>.6- Identificar y definir los selectores: de ID, de clases, universal, de etiquetas, descendente.</h3>
+<p> <strong>ID</strong> este elemento lo usamos para darle color a un solo elemento en el html, por ejemplo a un
+  titulo
+<h1 id="titulo">Título Principal </h1>
+</p>
+<p><strong>de clase </strong>En un documento HTML, los selectores de clase buscan un elemento basado en el contenido
+  de su atributo class</p>
+<p><strong>universal</strong> este selector coincide con los elementos de cualquier tipo. </p>
+<p><strong>de etiquetas</strong> este sirve para darle los atributos del css a un elemento.</p>
+<p><strong>descendente </strong>con este seleccionamos un elemento que esta adentro de otro, estos siempre son 2 o
+  mas, el ultimo seleccionado, se le aplicaran los elementos css</p>
+<h3> 1.7- Explicar brevemente utilizando una lista ordenada: ¿cómo funciona el CSS? </h3>
+<p>el <strong>CSS</strong>, combina el estilo que el usuario le dió al documento, lo procesa en una serie de etapas.
+</p>
+<ol>
+  <li>el navegador carga el html</li>
+  <li>convierte el html en un dom</li>
+  <li>el navegador busca lkos recursos vinculados al documento hmtl, imagenes y videos incrustados</li>
+  <li>El navegador analiza el CSS y ordena en diferentes «cubos» las diferentes reglas según el tipo de selector.</li>
+  <li>el arbol de renderizacion presenta las estructura en la que los nodos deben presentarse</li>
+  <li>se muestra el aspecto visual en la pantallla.</li>
+</ol>
 
-  <h3>1.8- ¿Cuáles son las tres formas para vincular CSS con HTML?</h3>
-  <p>utilizando la etiqueta style, se coloca dentro de la etiqueta head. </p>
-  <p>utilizando el atributo style, esta, aplica el estilo directamente a la etiqueta
-  <p style="color:rgb(0, 174, 255);">Esto es un párrafo celeste.</p>
-  <p>vinculando un archivo externo, podemos organizar los archivos CSS dentro de una carpeta llamada css.</p>
-  <p>
-    <link href="estilos.css" rel="stylesheet">
-  </p>
+<h3>1.8- ¿Cuáles son las tres formas para vincular CSS con HTML?</h3>
+<p>utilizando la etiqueta style, se coloca dentro de la etiqueta head. </p>
+<p>utilizando el atributo style, esta, aplica el estilo directamente a la etiqueta
+<p style="color:rgb(0, 174, 255);">Esto es un párrafo celeste.</p>
+<p>vinculando un archivo externo, podemos organizar los archivos CSS dentro de una carpeta llamada css.</p>
+<p>
+  <link href="estilos.css" rel="stylesheet">
+</p>
 
-  <p><a href="http://www.csszengarden.com/218/">tema 1</a></p>
-  <p><a href="http://www.csszengarden.com/198/">tema 2</a></p>
-  <h3> Abrir los dos archivos CSS de los diseños seleccionados. ¿Son los mismos?</h3>
-  <p>el HTML y los codigos son iguales, lo que cambia es el CSS, poniendole un estilo diferente.</p>
-  <h3>En líneas generales, el mismo HTML ¿puede tener diferentes diseños?</h3>
-  <p>si, ya que como vimos, puede tener el mismo codigo pero diferente diseño</p>
-  <h3>2.0- Utilizaremos las siguientes propiedades de CSS. Completar la columna de valores posibles para cada propiedad.  </h3>
-   <dl>
-    <dt><strong>color</strong></dt>
+<p><a href="http://www.csszengarden.com/218/">tema 1</a></p>
+<p><a href="http://www.csszengarden.com/198/">tema 2</a></p>
+<h3> Abrir los dos archivos CSS de los diseños seleccionados. ¿Son los mismos?</h3>
+<p>el HTML y los codigos son iguales, lo que cambia es el CSS, poniendole un estilo diferente.</p>
+<h3>En líneas generales, el mismo HTML ¿puede tener diferentes diseños?</h3>
+<p>si, ya que como vimos, puede tener el mismo codigo pero diferente diseño</p>
+<h3>2.0- Utilizaremos las siguientes propiedades de CSS. Completar la columna de valores posibles para cada propiedad.
+</h3>
+<dl>
+  <dt><strong>color</strong></dt>
   <dt>color: black</dt>
-   </dl>
+  <dt>type: color value:"ffff0000"</dt>
+  <dt>color: (26,6,11)</dt>
+  <dt><strong>background-color</strong></dt>
+  <dt>background-color: teal</dt>
+  <dt>background-color: rgb (203,21,34)</dt>
+  <dt>background-color:#777799;</dt>
+  <dt><strong>font-size</strong></dt>
+  <dt>font-size: xx-large</dt>
+  <dt>{ font-size: 250% }</dt>
+  <dt>{ font-size: 16px; }</dt>
+  <dt><strong>font-weight</strong></dt>
+  <dt> font-weight: bold;</dt>
+  <dt> font-weight: 600;</dt>
+  <dt> <strong> font-style: lighter</strong> </dt>
+  <dt> font-style: normal;</dt>
+  <dt> font-style: italic;</dt>
+  <dt> font-style: oblique;</dt>
+  <dt><strong>text-align</strong></dt>
+  <dt>text-align: start; border: solid;</dt>
+  <dt>text-align: center;border: solid;</dt>
+  <dt> text-align: justify;border: solid;</dt>
+  <dt><strong> text-decoration</strong></dt>
+  <dt> text-decoration: underline;</dt>
+  <dt> text-decoration: overline;</dt>
+  <dt> text-decoration: blink;</dt>
+  <dt><strong>text-transform</strong></dt>
+  <dt> text-transform: uppercase;</dt>
+  <dt>text-transform:capitalize;</dt>
+  <dt>text-transform: lowercase;</dt>
+  <dt><strong>letter-spacing</strong></dt>
+  <dt>letter-spacing: normal;</dt>
+  <dt>letter-spacing: 0.4em;</dt>
+  <dt>letter-spacing: 6px;</dt>
+  <dt><strong>line-height</strong></dt>
+  <dt>line-height: 1.1;
+    border: solid limegreen;</dt>
+  <dt>width: 18em;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;</dt>
+  <dt>font-size: 30px;</dt>
+
+</dl>
 
 
 
